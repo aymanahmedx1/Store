@@ -1,0 +1,17 @@
+C:\Users\A\Desktop\New folder\Store\Store.Service\bin\Debug\net8.0\Store.Service.deps.json
+C:\Users\A\Desktop\New folder\Store\Store.Service\bin\Debug\net8.0\Store.Service.dll
+C:\Users\A\Desktop\New folder\Store\Store.Service\bin\Debug\net8.0\Store.Service.pdb
+C:\Users\A\Desktop\New folder\Store\Store.Service\bin\Debug\net8.0\Store.data.dll
+C:\Users\A\Desktop\New folder\Store\Store.Service\bin\Debug\net8.0\Store.Repository.dll
+C:\Users\A\Desktop\New folder\Store\Store.Service\bin\Debug\net8.0\Store.Repository.pdb
+C:\Users\A\Desktop\New folder\Store\Store.Service\bin\Debug\net8.0\Store.data.pdb
+C:\Users\A\Desktop\New folder\Store\Store.Service\obj\Debug\net8.0\Store.Service.csproj.AssemblyReference.cache
+C:\Users\A\Desktop\New folder\Store\Store.Service\obj\Debug\net8.0\Store.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\A\Desktop\New folder\Store\Store.Service\obj\Debug\net8.0\Store.Service.AssemblyInfoInputs.cache
+C:\Users\A\Desktop\New folder\Store\Store.Service\obj\Debug\net8.0\Store.Service.AssemblyInfo.cs
+C:\Users\A\Desktop\New folder\Store\Store.Service\obj\Debug\net8.0\Store.Service.csproj.CoreCompileInputs.cache
+C:\Users\A\Desktop\New folder\Store\Store.Service\obj\Debug\net8.0\Store.Se.AEB3E340.Up2Date
+C:\Users\A\Desktop\New folder\Store\Store.Service\obj\Debug\net8.0\Store.Service.dll
+C:\Users\A\Desktop\New folder\Store\Store.Service\obj\Debug\net8.0\refint\Store.Service.dll
+C:\Users\A\Desktop\New folder\Store\Store.Service\obj\Debug\net8.0\Store.Service.pdb
+C:\Users\A\Desktop\New folder\Store\Store.Service\obj\Debug\net8.0\ref\Store.Service.dll
