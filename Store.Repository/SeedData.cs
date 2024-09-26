@@ -46,7 +46,6 @@ namespace Store.Repository
 			{
                 var logger = ilogger.CreateLogger<SeedData>();
                 logger.LogError(ex.Message);
-                logger.LogError(ex.InnerException.Message);
 			}
         
         }

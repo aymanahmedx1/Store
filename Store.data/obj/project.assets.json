@@ -2748,20 +2748,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\A\\.nuget\\packages\\": {}
+    "C:\\Users\\iayma\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\27.1.48\\ToolboxNuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.data\\Store.data.csproj",
+      "projectUniqueName": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.data\\Store.data.csproj",
       "projectName": "Store.data",
-      "projectPath": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.data\\Store.data.csproj",
-      "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.data\\obj\\",
+      "projectPath": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.data\\Store.data.csproj",
+      "packagesPath": "C:\\Users\\iayma\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.data\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\27.1.48\\ToolboxNuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\iayma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

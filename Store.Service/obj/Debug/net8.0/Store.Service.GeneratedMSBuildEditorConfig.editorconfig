@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Store.Service
-build_property.ProjectDir = C:\Users\A\Desktop\New folder\Store\Store.Service\
+build_property.ProjectDir = C:\Users\iayma\Source\Repos\aymanahmedx1\Store\Store.Service\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

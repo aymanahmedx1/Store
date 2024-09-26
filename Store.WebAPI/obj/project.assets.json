@@ -4608,20 +4608,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\A\\.nuget\\packages\\": {}
+    "C:\\Users\\iayma\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\27.1.48\\ToolboxNuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\Store.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\Store.WebAPI.csproj",
       "projectName": "Store.WebAPI",
-      "projectPath": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\Store.WebAPI.csproj",
-      "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\obj\\",
+      "projectPath": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\Store.WebAPI.csproj",
+      "packagesPath": "C:\\Users\\iayma\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\27.1.48\\ToolboxNuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\iayma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -4635,8 +4640,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.Service\\Store.Service.csproj": {
-              "projectPath": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.Service\\Store.Service.csproj"
+            "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.Service\\Store.Service.csproj": {
+              "projectPath": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.Service\\Store.Service.csproj"
             }
           }
         }
