@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PTd9xxCmTYn+YDZpJD9IjBfYvycAt8J0XtRAbeebh74=",
+  "Hash": "CF11v291EOs9AuIASyeyDkc8rut0A3Hn0VehiioPkho=",
   "Source": "Store.WebAPI",
   "BasePath": "_content/Store.WebAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Store.WebAPI\\wwwroot",
       "Source": "Store.WebAPI",
-      "ContentRoot": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\",
       "BasePath": "_content/Store.WebAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\images\\products\\CheesyVegetableLasagna.png",
+      "Identity": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\images\\products\\CheesyVegetableLasagna.png",
       "SourceId": "Store.WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\",
       "BasePath": "_content/Store.WebAPI",
       "RelativePath": "images/products/CheesyVegetableLasagna.png",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\CheesyVegetableLasagna.png"
     },
     {
-      "Identity": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\images\\products\\ChickenMarsala.png",
+      "Identity": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\images\\products\\ChickenMarsala.png",
       "SourceId": "Store.WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\",
       "BasePath": "_content/Store.WebAPI",
       "RelativePath": "images/products/ChickenMarsala.png",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\ChickenMarsala.png"
     },
     {
-      "Identity": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\images\\products\\ChickenTeriyakiNoodles.png",
+      "Identity": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\images\\products\\ChickenTeriyakiNoodles.png",
       "SourceId": "Store.WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\",
       "BasePath": "_content/Store.WebAPI",
       "RelativePath": "images/products/ChickenTeriyakiNoodles.png",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\ChickenTeriyakiNoodles.png"
     },
     {
-      "Identity": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\images\\products\\ChickenTikkaMasala.jpg",
+      "Identity": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\images\\products\\ChickenTikkaMasala.jpg",
       "SourceId": "Store.WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\",
       "BasePath": "_content/Store.WebAPI",
       "RelativePath": "images/products/ChickenTikkaMasala.jpg",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\ChickenTikkaMasala.jpg"
     },
     {
-      "Identity": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\images\\products\\Congee.png",
+      "Identity": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\images\\products\\Congee.png",
       "SourceId": "Store.WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\",
       "BasePath": "_content/Store.WebAPI",
       "RelativePath": "images/products/Congee.png",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\Congee.png"
     },
     {
-      "Identity": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\images\\products\\CreamyGochujangTortellini.png",
+      "Identity": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\images\\products\\CreamyGochujangTortellini.png",
       "SourceId": "Store.WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\",
       "BasePath": "_content/Store.WebAPI",
       "RelativePath": "images/products/CreamyGochujangTortellini.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\CreamyGochujangTortellini.png"
     },
     {
-      "Identity": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\images\\products\\CrispyVegetablePakoras.png",
+      "Identity": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\images\\products\\CrispyVegetablePakoras.png",
       "SourceId": "Store.WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\",
       "BasePath": "_content/Store.WebAPI",
       "RelativePath": "images/products/CrispyVegetablePakoras.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\CrispyVegetablePakoras.png"
     },
     {
-      "Identity": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\images\\products\\HaluskiNoodles.png",
+      "Identity": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\images\\products\\HaluskiNoodles.png",
       "SourceId": "Store.WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\",
       "BasePath": "_content/Store.WebAPI",
       "RelativePath": "images/products/HaluskiNoodles.png",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\HaluskiNoodles.png"
     },
     {
-      "Identity": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\images\\products\\HeartyVegetableLasagna.png",
+      "Identity": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\images\\products\\HeartyVegetableLasagna.png",
       "SourceId": "Store.WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\",
       "BasePath": "_content/Store.WebAPI",
       "RelativePath": "images/products/HeartyVegetableLasagna.png",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\HeartyVegetableLasagna.png"
     },
     {
-      "Identity": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\images\\products\\ItalianChickenMarinade.png",
+      "Identity": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\images\\products\\ItalianChickenMarinade.png",
       "SourceId": "Store.WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\",
       "BasePath": "_content/Store.WebAPI",
       "RelativePath": "images/products/ItalianChickenMarinade.png",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\ItalianChickenMarinade.png"
     },
     {
-      "Identity": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\images\\products\\ItalianWeddingSoup.png",
+      "Identity": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\images\\products\\ItalianWeddingSoup.png",
       "SourceId": "Store.WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\",
       "BasePath": "_content/Store.WebAPI",
       "RelativePath": "images/products/ItalianWeddingSoup.png",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\ItalianWeddingSoup.png"
     },
     {
-      "Identity": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\images\\products\\Kulfi.png",
+      "Identity": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\images\\products\\Kulfi.png",
       "SourceId": "Store.WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\",
       "BasePath": "_content/Store.WebAPI",
       "RelativePath": "images/products/Kulfi.png",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\Kulfi.png"
     },
     {
-      "Identity": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\images\\products\\PastaSalad.png",
+      "Identity": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\images\\products\\PastaSalad.png",
       "SourceId": "Store.WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\",
       "BasePath": "_content/Store.WebAPI",
       "RelativePath": "images/products/PastaSalad.png",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\PastaSalad.png"
     },
     {
-      "Identity": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\images\\products\\PepperPasta.png",
+      "Identity": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\images\\products\\PepperPasta.png",
       "SourceId": "Store.WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\",
       "BasePath": "_content/Store.WebAPI",
       "RelativePath": "images/products/PepperPasta.png",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\PepperPasta.png"
     },
     {
-      "Identity": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\images\\products\\ShrimpEggFooYoung.png",
+      "Identity": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\images\\products\\ShrimpEggFooYoung.png",
       "SourceId": "Store.WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\",
       "BasePath": "_content/Store.WebAPI",
       "RelativePath": "images/products/ShrimpEggFooYoung.png",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\ShrimpEggFooYoung.png"
     },
     {
-      "Identity": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\images\\products\\TandooriChicken.png",
+      "Identity": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\images\\products\\TandooriChicken.png",
       "SourceId": "Store.WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\",
       "BasePath": "_content/Store.WebAPI",
       "RelativePath": "images/products/TandooriChicken.png",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\TandooriChicken.png"
     },
     {
-      "Identity": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\images\\products\\VegetarianKorma.png",
+      "Identity": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\images\\products\\VegetarianKorma.png",
       "SourceId": "Store.WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\",
       "BasePath": "_content/Store.WebAPI",
       "RelativePath": "images/products/VegetarianKorma.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\VegetarianKorma.png"
     },
     {
-      "Identity": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\images\\products\\VegetarianRefriedBeans.png",
+      "Identity": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\images\\products\\VegetarianRefriedBeans.png",
       "SourceId": "Store.WebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\iayma\\Source\\Repos\\aymanahmedx1\\Store\\Store.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\wwwroot\\",
       "BasePath": "_content/Store.WebAPI",
       "RelativePath": "images/products/VegetarianRefriedBeans.png",
       "AssetKind": "All",

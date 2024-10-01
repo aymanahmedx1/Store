@@ -3,6 +3,7 @@
 using Store.Repository.Specification.ProductSpecification;
 using Store.Service.ProductServices;
 using Store.Service.ProductServices.Dto;
+using Store.WebAPI.Helpers;
 
 namespace Store.WebAPI.Controllers
 {
@@ -18,6 +19,7 @@ namespace Store.WebAPI.Controllers
        => Ok(await _productService.GetAllTypeAsync());
 
         [HttpGet]
+        [Cash(100)]
         public async Task<ActionResult<IReadOnlyList<BrandTypeDetailsDto>>> GetAllProducts([FromQuery]ProductSpecifications input)
             => Ok(await _productService.GetAllProductAsync(input));
         [HttpGet]

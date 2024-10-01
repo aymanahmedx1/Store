@@ -289,3 +289,6 @@ C:\Users\iayma\Source\Repos\aymanahmedx1\Store\Store.WebAPI\obj\Debug\net8.0\ref
 C:\Users\iayma\Source\Repos\aymanahmedx1\Store\Store.WebAPI\obj\Debug\net8.0\Store.WebAPI.pdb
 C:\Users\iayma\Source\Repos\aymanahmedx1\Store\Store.WebAPI\obj\Debug\net8.0\Store.WebAPI.genruntimeconfig.cache
 C:\Users\iayma\Source\Repos\aymanahmedx1\Store\Store.WebAPI\obj\Debug\net8.0\ref\Store.WebAPI.dll
+C:\Users\A\Desktop\New folder\Store\Store.WebAPI\obj\Debug\net8.0\Store.WebAPI.sourcelink.json
+C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\StackExchange.Redis.dll

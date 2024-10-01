@@ -1,12 +1,11 @@
-
 using Microsoft.EntityFrameworkCore;
 
+using StackExchange.Redis;
+
 using Store.data.Context;
-using Store.Repository.Interface;
-using Store.Repository.Repository;
-using Store.Service.Helpers;
-using Store.Service.ProductServices;
+using Store.WebAPI.Extentions;
 using Store.WebAPI.Helpers;
+using Store.WebAPI.Middleware;
 
 namespace Store.WebAPI
 {
@@ -15,20 +14,21 @@ namespace Store.WebAPI
         public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            builder.Services.AddAutoMapper(typeof(ProductMapper));
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
-            // Add services to the container.
+            builder.Services.AddSingleton<IConnectionMultiplexer>(config => {
+                return ConnectionMultiplexer.Connect(ConfigurationOptions.Parse(builder.Configuration.GetConnectionString("Redis")));
+            });
+           // Add services to the container.
+           builder.Services.AddApplicationServices();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            builder.Services.AddScoped<IUnitOfWork,UnitOfWork>();
-            builder.Services.AddScoped<IProductService,ProductService>();
 
             var app = builder.Build();
             await ApplySeeding.ApplySeed(app);
@@ -38,7 +38,7 @@ namespace Store.WebAPI
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            app.UseMiddleware<ExceptionMiddleware>();
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
