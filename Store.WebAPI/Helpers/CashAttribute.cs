@@ -2,13 +2,12 @@
 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
-using Microsoft.IdentityModel.Tokens;
 
 using Store.Service.CashingService;
 
 namespace Store.WebAPI.Helpers
 {
-	public class CashAttribute : Attribute, IAsyncActionFilter
+    public class CashAttribute : Attribute, IAsyncActionFilter
 	{
 		public CashAttribute(int timeToLiveInSecounds)
 		{

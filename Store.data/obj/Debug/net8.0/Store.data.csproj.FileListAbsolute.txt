@@ -1,15 +1,3 @@
-C:\Users\A\Desktop\New folder\Store\Store.data\bin\Debug\net8.0\Store.data.deps.json
-C:\Users\A\Desktop\New folder\Store\Store.data\bin\Debug\net8.0\Store.data.dll
-C:\Users\A\Desktop\New folder\Store\Store.data\bin\Debug\net8.0\Store.data.pdb
-C:\Users\A\Desktop\New folder\Store\Store.data\obj\Debug\net8.0\Store.data.csproj.AssemblyReference.cache
-C:\Users\A\Desktop\New folder\Store\Store.data\obj\Debug\net8.0\Store.data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\A\Desktop\New folder\Store\Store.data\obj\Debug\net8.0\Store.data.AssemblyInfoInputs.cache
-C:\Users\A\Desktop\New folder\Store\Store.data\obj\Debug\net8.0\Store.data.AssemblyInfo.cs
-C:\Users\A\Desktop\New folder\Store\Store.data\obj\Debug\net8.0\Store.data.csproj.CoreCompileInputs.cache
-C:\Users\A\Desktop\New folder\Store\Store.data\obj\Debug\net8.0\Store.data.dll
-C:\Users\A\Desktop\New folder\Store\Store.data\obj\Debug\net8.0\refint\Store.data.dll
-C:\Users\A\Desktop\New folder\Store\Store.data\obj\Debug\net8.0\Store.data.pdb
-C:\Users\A\Desktop\New folder\Store\Store.data\obj\Debug\net8.0\ref\Store.data.dll
 C:\Users\iayma\Source\Repos\aymanahmedx1\Store\Store.data\bin\Debug\net8.0\Store.data.deps.json
 C:\Users\iayma\Source\Repos\aymanahmedx1\Store\Store.data\bin\Debug\net8.0\Store.data.dll
 C:\Users\iayma\Source\Repos\aymanahmedx1\Store\Store.data\bin\Debug\net8.0\Store.data.pdb
@@ -23,4 +11,16 @@ C:\Users\iayma\Source\Repos\aymanahmedx1\Store\Store.data\obj\Debug\net8.0\Store
 C:\Users\iayma\Source\Repos\aymanahmedx1\Store\Store.data\obj\Debug\net8.0\refint\Store.data.dll
 C:\Users\iayma\Source\Repos\aymanahmedx1\Store\Store.data\obj\Debug\net8.0\Store.data.pdb
 C:\Users\iayma\Source\Repos\aymanahmedx1\Store\Store.data\obj\Debug\net8.0\ref\Store.data.dll
+C:\Users\A\Desktop\New folder\Store\Store.data\bin\Debug\net8.0\Store.data.deps.json
+C:\Users\A\Desktop\New folder\Store\Store.data\bin\Debug\net8.0\Store.data.dll
+C:\Users\A\Desktop\New folder\Store\Store.data\bin\Debug\net8.0\Store.data.pdb
+C:\Users\A\Desktop\New folder\Store\Store.data\obj\Debug\net8.0\Store.data.csproj.AssemblyReference.cache
+C:\Users\A\Desktop\New folder\Store\Store.data\obj\Debug\net8.0\Store.data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\A\Desktop\New folder\Store\Store.data\obj\Debug\net8.0\Store.data.AssemblyInfoInputs.cache
+C:\Users\A\Desktop\New folder\Store\Store.data\obj\Debug\net8.0\Store.data.AssemblyInfo.cs
+C:\Users\A\Desktop\New folder\Store\Store.data\obj\Debug\net8.0\Store.data.csproj.CoreCompileInputs.cache
 C:\Users\A\Desktop\New folder\Store\Store.data\obj\Debug\net8.0\Store.data.sourcelink.json
+C:\Users\A\Desktop\New folder\Store\Store.data\obj\Debug\net8.0\Store.data.dll
+C:\Users\A\Desktop\New folder\Store\Store.data\obj\Debug\net8.0\refint\Store.data.dll
+C:\Users\A\Desktop\New folder\Store\Store.data\obj\Debug\net8.0\Store.data.pdb
+C:\Users\A\Desktop\New folder\Store\Store.data\obj\Debug\net8.0\ref\Store.data.dll

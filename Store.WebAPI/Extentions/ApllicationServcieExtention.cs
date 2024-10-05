@@ -1,7 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
+using Store.Repository.Basket;
 using Store.Repository.Interface;
 using Store.Repository.Repository;
+using Store.Service.BasketService;
+using Store.Service.BasketService.Dtos;
 using Store.Service.CashingService;
 using Store.Service.HandelReponse;
 using Store.Service.Helpers;
@@ -17,6 +20,8 @@ namespace Store.WebAPI.Extentions
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<ICashService,CashService>();
+            services.AddScoped<IBasketRepository,BasketRepository>();
+            services.AddScoped<IBasketSrevice,BasketSrevice>();
             services.Configure<ApiBehaviorOptions>(options =>
             {
                 options.InvalidModelStateResponseFactory = action =>
@@ -30,6 +35,7 @@ namespace Store.WebAPI.Extentions
                 };
             });
             services.AddAutoMapper(typeof(ProductMapper));
+            services.AddAutoMapper(typeof(BasketProfile));
             return services;
 
         }

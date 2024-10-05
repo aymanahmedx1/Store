@@ -1,6 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 using Store.data.Context;
+using Store.data.Entity.IdentityEntity;
 using Store.Repository;
 
 namespace Store.WebAPI.Helpers
@@ -16,8 +18,10 @@ namespace Store.WebAPI.Helpers
                 try
                 {
                     var context = services.GetRequiredService<ApplicationDbContext>();
+                    var userManager = services.GetRequiredService<UserManager<AppUser>>();
                     await context.Database.MigrateAsync();
                     await SeedData.SeedDataAsync(context, loggerFactory);
+                    await AppUserContextSeed.SeedDataAsync(userManager, loggerFactory);
                 }
                 catch (Exception ex)
                 {
