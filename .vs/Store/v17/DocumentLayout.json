@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\iayma\\source\\repos\\aymanahmedx1\\Store\\",
+  "WorkspaceRootPath": "C:\\Users\\A\\Desktop\\New folder\\Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CA9ADE0-6FAF-4A38-92E5-C34BDBA79867}|Store.Service\\Store.Service.csproj|c:\\users\\iayma\\source\\repos\\aymanahmedx1\\store\\store.service\\helpers\\paginatedresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CA9ADE0-6FAF-4A38-92E5-C34BDBA79867}|Store.Service\\Store.Service.csproj|solutionrelative:store.service\\helpers\\paginatedresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{545D6E8A-71AB-4A90-BCE7-447C68C3DF57}|Store.WebAPI\\Store.WebAPI.csproj|c:\\users\\iayma\\source\\repos\\aymanahmedx1\\store\\store.webapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{545D6E8A-71AB-4A90-BCE7-447C68C3DF57}|Store.WebAPI\\Store.WebAPI.csproj|solutionrelative:store.webapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CA9ADE0-6FAF-4A38-92E5-C34BDBA79867}|Store.Service\\Store.Service.csproj|c:\\users\\iayma\\source\\repos\\aymanahmedx1\\store\\store.service\\productservices\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CA9ADE0-6FAF-4A38-92E5-C34BDBA79867}|Store.Service\\Store.Service.csproj|solutionrelative:store.service\\productservices\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{545D6E8A-71AB-4A90-BCE7-447C68C3DF57}|Store.WebAPI\\Store.WebAPI.csproj|c:\\users\\a\\desktop\\new folder\\store\\store.webapi\\helpers\\cashattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{545D6E8A-71AB-4A90-BCE7-447C68C3DF57}|Store.WebAPI\\Store.WebAPI.csproj|solutionrelative:store.webapi\\helpers\\cashattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,12 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -39,40 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PaginatedResultDto.cs",
-              "DocumentMoniker": "C:\\Users\\iayma\\source\\repos\\aymanahmedx1\\Store\\Store.Service\\Helpers\\PaginatedResultDto.cs",
-              "RelativeDocumentMoniker": "Store.Service\\Helpers\\PaginatedResultDto.cs",
-              "ToolTip": "C:\\Users\\iayma\\source\\repos\\aymanahmedx1\\Store\\Store.Service\\Helpers\\PaginatedResultDto.cs",
-              "RelativeToolTip": "Store.Service\\Helpers\\PaginatedResultDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Title": "CashAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\Helpers\\CashAttribute.cs",
+              "RelativeDocumentMoniker": "Store.WebAPI\\Helpers\\CashAttribute.cs",
+              "ToolTip": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\Helpers\\CashAttribute.cs",
+              "RelativeToolTip": "Store.WebAPI\\Helpers\\CashAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T12:48:16.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\iayma\\source\\repos\\aymanahmedx1\\Store\\Store.Service\\ProductServices\\ProductService.cs",
-              "RelativeDocumentMoniker": "Store.Service\\ProductServices\\ProductService.cs",
-              "ToolTip": "C:\\Users\\iayma\\source\\repos\\aymanahmedx1\\Store\\Store.Service\\ProductServices\\ProductService.cs",
-              "RelativeToolTip": "Store.Service\\ProductServices\\ProductService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAuwB8AAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T12:45:36.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\iayma\\source\\repos\\aymanahmedx1\\Store\\Store.WebAPI\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Store.WebAPI\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\iayma\\source\\repos\\aymanahmedx1\\Store\\Store.WebAPI\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Store.WebAPI\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T12:45:26.779Z",
+              "WhenOpened": "2024-10-05T19:15:23.628Z",
               "EditorCaption": ""
             }
           ]

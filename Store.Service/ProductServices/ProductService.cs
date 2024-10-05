@@ -26,20 +26,24 @@ namespace Store.Service.ProductServices
             var products = await _unitOfWork.Repository<Product, int>().GetAllWithSpecificationAsync(specs);
             var mappedProducts = _mapper.Map<IReadOnlyList<ProductDetailsDto>>(products);
 
-            return new PaginatedResultDto<ProductDetailsDto>(input.PageIndex , input.PageSize, productsCount , mappedProducts);
+            return new PaginatedResultDto<ProductDetailsDto>(input.PageIndex, input.PageSize, productsCount, mappedProducts);
         }
 
         public async Task<IReadOnlyList<BrandTypeDetailsDto>> GetAllTypeAsync()
         {
-           var types = await _unitOfWork.Repository<ProductType, int>().GetAllAsync();
+            var types = await _unitOfWork.Repository<ProductType, int>().GetAllAsync();
             var mappedTypes = _mapper.Map<IReadOnlyList<BrandTypeDetailsDto>>(types);
             return mappedTypes;
         }
 
         public async Task<ProductDetailsDto> GetProductByIdAsync(int? productId)
         {
+            if (productId == null)
+                throw new Exception("Id is Null");
             var specs = new ProductWithSpecifiactions(productId);
             var products = await _unitOfWork.Repository<Product, int>().GetWithSpecificationByIdAsync(specs);
+            if (products == null)
+                throw new Exception("Prduct Not Found");
             var mappedProducts = _mapper.Map<ProductDetailsDto>(products);
             return mappedProducts;
         }
