@@ -298,3 +298,4 @@ C:\Users\A\Desktop\New folder\Store\Store.WebAPI\obj\Debug\net8.0\refint\Store.W
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\obj\Debug\net8.0\Store.WebAPI.pdb
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\obj\Debug\net8.0\Store.WebAPI.genruntimeconfig.cache
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\obj\Debug\net8.0\ref\Store.WebAPI.dll
+C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -9,6 +9,9 @@ using Store.Service.CashingService;
 using Store.Service.HandelReponse;
 using Store.Service.Helpers;
 using Store.Service.ProductServices;
+using Store.Service.Token;
+using Store.Service.UserService;
+using Store.Service.UserServices;
 
 namespace Store.WebAPI.Extentions
 {
@@ -22,6 +25,8 @@ namespace Store.WebAPI.Extentions
             services.AddScoped<ICashService,CashService>();
             services.AddScoped<IBasketRepository,BasketRepository>();
             services.AddScoped<IBasketSrevice,BasketSrevice>();
+            services.AddScoped<ITokenService,TokenService>();
+			services.AddScoped<IUserService, UserService>();
             services.Configure<ApiBehaviorOptions>(options =>
             {
                 options.InvalidModelStateResponseFactory = action =>

@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\A\\Desktop\\New folder\\Store\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{545D6E8A-71AB-4A90-BCE7-447C68C3DF57}|Store.WebAPI\\Store.WebAPI.csproj|c:\\users\\a\\desktop\\new folder\\store\\store.webapi\\helpers\\applyseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{545D6E8A-71AB-4A90-BCE7-447C68C3DF57}|Store.WebAPI\\Store.WebAPI.csproj|solutionrelative:store.webapi\\helpers\\applyseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{545D6E8A-71AB-4A90-BCE7-447C68C3DF57}|Store.WebAPI\\Store.WebAPI.csproj|c:\\users\\a\\desktop\\new folder\\store\\store.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{545D6E8A-71AB-4A90-BCE7-447C68C3DF57}|Store.WebAPI\\Store.WebAPI.csproj|solutionrelative:store.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC0EEA06-73AE-4583-AF22-12B82E0DFB66}|Store.Repository\\Store.Repository.csproj|c:\\users\\a\\desktop\\new folder\\store\\store.repository\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0EEA06-73AE-4583-AF22-12B82E0DFB66}|Store.Repository\\Store.Repository.csproj|solutionrelative:store.repository\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC0EEA06-73AE-4583-AF22-12B82E0DFB66}|Store.Repository\\Store.Repository.csproj|c:\\users\\a\\desktop\\new folder\\store\\store.repository\\appusercontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0EEA06-73AE-4583-AF22-12B82E0DFB66}|Store.Repository\\Store.Repository.csproj|solutionrelative:store.repository\\appusercontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,55 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplySeeding.cs",
-              "DocumentMoniker": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\Helpers\\ApplySeeding.cs",
-              "RelativeDocumentMoniker": "Store.WebAPI\\Helpers\\ApplySeeding.cs",
-              "ToolTip": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\Helpers\\ApplySeeding.cs",
-              "RelativeToolTip": "Store.WebAPI\\Helpers\\ApplySeeding.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T22:08:33.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Store.WebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\Program.cs",
-              "RelativeToolTip": "Store.WebAPI\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACcAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T22:08:23.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.Repository\\SeedData.cs",
-              "RelativeDocumentMoniker": "Store.Repository\\SeedData.cs",
-              "ToolTip": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.Repository\\SeedData.cs",
-              "RelativeToolTip": "Store.Repository\\SeedData.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAADEAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T22:03:50.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppUserContextSeed.cs",
-              "DocumentMoniker": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.Repository\\AppUserContextSeed.cs",
-              "RelativeDocumentMoniker": "Store.Repository\\AppUserContextSeed.cs",
-              "ToolTip": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.Repository\\AppUserContextSeed.cs",
-              "RelativeToolTip": "Store.Repository\\AppUserContextSeed.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T22:03:23.673Z"
             }
           ]
         }

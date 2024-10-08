@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 using Store.Repository.Specification.ProductSpecification;
 using Store.Service.ProductServices;
@@ -7,7 +8,8 @@ using Store.WebAPI.Helpers;
 
 namespace Store.WebAPI.Controllers
 {
-    [Route("api/[controller]/[action]")]
+	[Authorize]
+	[Route("api/[controller]/[action]")]
     [ApiController]
     public class ProductController(IProductService _productService) : ControllerBase
     {
