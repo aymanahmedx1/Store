@@ -6,5 +6,8 @@
         public string DeliveryMethodId { get; set; }
         public int ShippingPrice { get; set; }
         public List<BasketItem> BasketItems { get; set; }
+        public string? PaymentIntentId { get; set; }
+        public string? ClientSecret { get; set; }
+
     }
 }

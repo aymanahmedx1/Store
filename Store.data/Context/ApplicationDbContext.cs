@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Reflection;
+
+using Microsoft.EntityFrameworkCore;
 
 using Store.data.Entity;
 
@@ -8,6 +10,11 @@ namespace Store.data.Context
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            base.OnModelCreating(modelBuilder);
         }
         public DbSet<ProductBrand> productBrands { get; set; }
         public DbSet<ProductType> ProductTypes { get; set; }

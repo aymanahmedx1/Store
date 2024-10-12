@@ -25,7 +25,7 @@ namespace Store.Repository.Repository
             }
             return (IGenericRepository<TEntity, TKey>)_repository[entityKey];
         }
-        public async Task<int> Complete()
+        public async Task<int> CompleteAsync()
         => await _context.SaveChangesAsync();
 
 

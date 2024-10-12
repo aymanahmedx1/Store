@@ -184,7 +184,6 @@ C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\Microsoft.Iden
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\StackExchange.Redis.dll
@@ -198,14 +197,12 @@ C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\System.Composi
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\System.Memory.Data.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\System.Security.Permissions.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\System.Text.Json.dll
-C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -264,12 +261,7 @@ C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\runtimes\win-a
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\Store.data.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\Store.Repository.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\Store.Service.dll
@@ -299,3 +291,5 @@ C:\Users\A\Desktop\New folder\Store\Store.WebAPI\obj\Debug\net8.0\Store.WebAPI.p
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\obj\Debug\net8.0\Store.WebAPI.genruntimeconfig.cache
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\obj\Debug\net8.0\ref\Store.WebAPI.dll
 C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\A\Desktop\New folder\Store\Store.WebAPI\bin\Debug\net8.0\Stripe.net.dll

@@ -8,6 +8,8 @@ using Store.Service.BasketService.Dtos;
 using Store.Service.CashingService;
 using Store.Service.HandelReponse;
 using Store.Service.Helpers;
+using Store.Service.OrderServices;
+using Store.Service.OrderServices.Dto;
 using Store.Service.ProductServices;
 using Store.Service.Token;
 using Store.Service.UserService;
@@ -27,6 +29,7 @@ namespace Store.WebAPI.Extentions
             services.AddScoped<IBasketSrevice,BasketSrevice>();
             services.AddScoped<ITokenService,TokenService>();
 			services.AddScoped<IUserService, UserService>();
+			services.AddScoped<IOrderService, OrderService>();
             services.Configure<ApiBehaviorOptions>(options =>
             {
                 options.InvalidModelStateResponseFactory = action =>
@@ -41,6 +44,7 @@ namespace Store.WebAPI.Extentions
             });
             services.AddAutoMapper(typeof(ProductMapper));
             services.AddAutoMapper(typeof(BasketProfile));
+            services.AddAutoMapper(typeof(OrderProfile));
             return services;
 
         }

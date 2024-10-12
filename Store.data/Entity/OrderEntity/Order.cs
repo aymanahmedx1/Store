@@ -13,5 +13,6 @@
         public string BasketId { get; set; }
         public decimal  SubTotal { get; set; }
         public decimal GetTotal() => SubTotal + DeliveryMethod.Price;
+        public string? PaymentIntentId { get; set; }
     }
 }
