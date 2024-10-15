@@ -14,7 +14,7 @@ using Stripe;
 
 namespace Store.Service.PaymentServices
 {
-    public class PaymentService(IConfiguration _config, IUnitOfWork _unitOfWork, IBasketSrevice _basketService , IMapper _mapper) : IPaymentService
+    public class PaymentService(IConfiguration _config, IUnitOfWork _unitOfWork, IBasketSrevice _basketService, IMapper _mapper) : IPaymentService
     {
         public async Task<CustomerBasketDto> CreateOrUpdatePaymentIntent(CustomerBasketDto input)
         {
@@ -37,7 +37,7 @@ namespace Store.Service.PaymentServices
             {
                 var intentOption = new PaymentIntentCreateOptions
                 {
-                    Amount =(long) input.BasketItems.Sum(x => x.Quantity * (x.Price * 100)) + (long)(shippingPrice * 100),
+                    Amount = (long)input.BasketItems.Sum(x => x.Quantity * (x.Price * 100)) + (long)(shippingPrice * 100),
                     Currency = "usd",
                     PaymentMethodTypes = new List<string> { "card" }
                 };
@@ -52,9 +52,10 @@ namespace Store.Service.PaymentServices
                     Amount = (long)input.BasketItems.Sum(x => x.Quantity * (x.Price * 100)) + (long)(shippingPrice * 100),
                 };
                 paymentIntent = await payment.UpdateAsync(input.PaymentIntentId, updateIntentOption);
-
+                input.PaymentIntentId = paymentIntent?.Id;
+                input.ClientSecret = paymentIntent?.ClientSecret;
+                await _basketService.UpdateBasketAsync(input);
             }
-            await _basketService.UpdateBasketAsync(input);
             return input;
         }
 
@@ -70,7 +71,7 @@ namespace Store.Service.PaymentServices
             _unitOfWork.Repository<Order, Guid>().Update(order);
             await _unitOfWork.CompleteAsync();
             var mappedOrder = _mapper.Map<OrderDetailsDto>(order);
-            return mappedOrder; 
+            return mappedOrder;
         }
 
         public async Task<OrderDetailsDto> UpdateOrderPaymentSucceded(string paymentIntentId)

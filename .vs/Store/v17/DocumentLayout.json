@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\A\\Desktop\\New folder\\Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CA9ADE0-6FAF-4A38-92E5-C34BDBA79867}|Store.Service\\Store.Service.csproj|c:\\users\\a\\desktop\\new folder\\store\\store.service\\paymentservices\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CA9ADE0-6FAF-4A38-92E5-C34BDBA79867}|Store.Service\\Store.Service.csproj|solutionrelative:store.service\\paymentservices\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{545D6E8A-71AB-4A90-BCE7-447C68C3DF57}|Store.WebAPI\\Store.WebAPI.csproj|c:\\users\\a\\desktop\\new folder\\store\\store.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{545D6E8A-71AB-4A90-BCE7-447C68C3DF57}|Store.WebAPI\\Store.WebAPI.csproj|solutionrelative:store.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA9ADE0-6FAF-4A38-92E5-C34BDBA79867}|Store.Service\\Store.Service.csproj|c:\\users\\a\\desktop\\new folder\\store\\store.service\\orderservices\\dto\\orderitemimageurlresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA9ADE0-6FAF-4A38-92E5-C34BDBA79867}|Store.Service\\Store.Service.csproj|solutionrelative:store.service\\orderservices\\dto\\orderitemimageurlresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CA9ADE0-6FAF-4A38-92E5-C34BDBA79867}|Store.Service\\Store.Service.csproj|c:\\users\\a\\desktop\\new folder\\store\\store.service\\orderservices\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CA9ADE0-6FAF-4A38-92E5-C34BDBA79867}|Store.Service\\Store.Service.csproj|solutionrelative:store.service\\orderservices\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{545D6E8A-71AB-4A90-BCE7-447C68C3DF57}|Store.WebAPI\\Store.WebAPI.csproj|c:\\users\\a\\desktop\\new folder\\store\\store.webapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{545D6E8A-71AB-4A90-BCE7-447C68C3DF57}|Store.WebAPI\\Store.WebAPI.csproj|solutionrelative:store.webapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA9ADE0-6FAF-4A38-92E5-C34BDBA79867}|Store.Service\\Store.Service.csproj|c:\\users\\a\\desktop\\new folder\\store\\store.service\\paymentservices\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA9ADE0-6FAF-4A38-92E5-C34BDBA79867}|Store.Service\\Store.Service.csproj|solutionrelative:store.service\\paymentservices\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{545D6E8A-71AB-4A90-BCE7-447C68C3DF57}|Store.WebAPI\\Store.WebAPI.csproj|c:\\users\\a\\desktop\\new folder\\store\\store.webapi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{545D6E8A-71AB-4A90-BCE7-447C68C3DF57}|Store.WebAPI\\Store.WebAPI.csproj|solutionrelative:store.webapi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA9ADE0-6FAF-4A38-92E5-C34BDBA79867}|Store.Service\\Store.Service.csproj|c:\\users\\a\\desktop\\new folder\\store\\store.service\\orderservices\\dto\\orderprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA9ADE0-6FAF-4A38-92E5-C34BDBA79867}|Store.Service\\Store.Service.csproj|solutionrelative:store.service\\orderservices\\dto\\orderprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +50,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.Service\\OrderServices\\OrderService.cs",
-              "RelativeDocumentMoniker": "Store.Service\\OrderServices\\OrderService.cs",
-              "ToolTip": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.Service\\OrderServices\\OrderService.cs",
-              "RelativeToolTip": "Store.Service\\OrderServices\\OrderService.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA2wBcAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Store.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\Program.cs",
+              "RelativeToolTip": "Store.WebAPI\\Program.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAA2wDgAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T10:50:12.258Z",
+              "WhenOpened": "2024-10-15T20:17:05.832Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "OrderItemImageUrlResolver.cs",
+              "DocumentMoniker": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.Service\\OrderServices\\Dto\\OrderItemImageUrlResolver.cs",
+              "RelativeDocumentMoniker": "Store.Service\\OrderServices\\Dto\\OrderItemImageUrlResolver.cs",
+              "ToolTip": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.Service\\OrderServices\\Dto\\OrderItemImageUrlResolver.cs",
+              "RelativeToolTip": "Store.Service\\OrderServices\\Dto\\OrderItemImageUrlResolver.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T20:13:13.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.Service\\PaymentServices\\PaymentService.cs",
               "RelativeDocumentMoniker": "Store.Service\\PaymentServices\\PaymentService.cs",
               "ToolTip": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.Service\\PaymentServices\\PaymentService.cs",
               "RelativeToolTip": "Store.Service\\PaymentServices\\PaymentService.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAUwDAAAAANAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAmwDcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T10:34:11.083Z",
+              "WhenOpened": "2024-10-15T20:07:31.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.Service\\OrderServices\\OrderService.cs",
+              "RelativeDocumentMoniker": "Store.Service\\OrderServices\\OrderService.cs",
+              "ToolTip": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.Service\\OrderServices\\OrderService.cs",
+              "RelativeToolTip": "Store.Service\\OrderServices\\OrderService.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAA1wFQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T20:02:21.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Store.WebAPI\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Store.WebAPI\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T20:01:23.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Store.WebAPI\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.WebAPI\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Store.WebAPI\\Controllers\\PaymentController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAmwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T20:01:22.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderProfile.cs",
+              "DocumentMoniker": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.Service\\OrderServices\\Dto\\OrderProfile.cs",
+              "RelativeDocumentMoniker": "Store.Service\\OrderServices\\Dto\\OrderProfile.cs",
+              "ToolTip": "C:\\Users\\A\\Desktop\\New folder\\Store\\Store.Service\\OrderServices\\Dto\\OrderProfile.cs",
+              "RelativeToolTip": "Store.Service\\OrderServices\\Dto\\OrderProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T19:55:34.231Z",
               "EditorCaption": ""
             }
           ]

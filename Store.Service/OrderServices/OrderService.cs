@@ -1,16 +1,27 @@
 ﻿
 using AutoMapper;
 
+using Microsoft.Extensions.Logging;
+
 using Store.data.Entity;
 using Store.data.Entity.OrderEntity;
 using Store.Repository.Interface;
 using Store.Repository.Specification.OrderSpecification;
 using Store.Service.BasketService;
 using Store.Service.OrderServices.Dto;
+using Store.Service.PaymentServices;
+
+using Product = Store.data.Entity.Product;
 
 namespace Store.Service.OrderServices
 {
-    public class OrderService(IBasketSrevice _basketService, IUnitOfWork _unitOfWork, IMapper _mapper) : IOrderService
+    public class OrderService
+        (IBasketSrevice _basketService,
+        IUnitOfWork _unitOfWork,
+        IMapper _mapper,
+        IPaymentService _paymentSrvice,
+        ILogger<OrderService> _logger
+        ) : IOrderService
     {
         public async Task<OrderDetailsDto> CreateOrderAsync(OrderDto input)
         {
@@ -37,16 +48,28 @@ namespace Store.Service.OrderServices
                     ProductItem = productItem
                 };
                 var mappedOrderItem = _mapper.Map<OrderItemDto>(orderItem);
+                orderItems.Add(mappedOrderItem);
             }
             #endregion
 
             #region Delivery Method
-            var deliverMethod = _unitOfWork.Repository<DeliveryMethod, int>().GetByIdAsync(basket.DeliveryMethodId);
+            var deliverMethod =await _unitOfWork.Repository<DeliveryMethod, int>().GetByIdAsync(basket.DeliveryMethodId);
             if (deliverMethod == null)
                 throw new Exception("No Deliver Method");
             #endregion
+
             #region CalcSubTotal
             var subTotal = orderItems.Sum(x => x.Quantity * x.price);
+            #endregion
+
+            #region Payment
+            var specs = new OrderWithIntentIdSpecification(basket.PaymentIntentId);
+            var exsitOrder = await _unitOfWork.Repository<Order, Guid>().GetWithSpecificationByIdAsync(specs);
+
+            if (exsitOrder is null)
+            {
+                await _paymentSrvice.CreateOrUpdatePaymentIntent(basket);
+            }
             #endregion
 
             #region Order
@@ -60,9 +83,18 @@ namespace Store.Service.OrderServices
                 BasketId = input.BasketId,
                 OrderItems = mappedOrderItems,
                 SubTotal = subTotal,
+                PaymentIntentId = basket.PaymentIntentId,
             };
-            await _unitOfWork.Repository<Order, Guid>().AddAsync(order);
-            await _unitOfWork.CompleteAsync();
+            try
+            {
+                await _unitOfWork.Repository<Order, Guid>().AddAsync(order);
+                await _unitOfWork.CompleteAsync();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                throw;
+            }
             var mappedOrder = _mapper.Map<OrderDetailsDto>(order);
             return mappedOrder;
             #endregion 
@@ -74,7 +106,8 @@ namespace Store.Service.OrderServices
         public async Task<OrderDetailsDto> GetOrderByIdAsync(Guid id)
         {
             var specs = new OrderWithItemSpecification(id);
-            var order = await _unitOfWork.Repository<Order, Guid>().GetWithSpecificationByIdAsync(specs);
+            var order = await _unitOfWork.Repository<Order, Guid>()
+                .GetWithSpecificationByIdAsync(specs);
             if (order is null)
                 throw new Exception($"Can not find Order With Id {id} !");
             var mappedOrder = _mapper.Map<OrderDetailsDto>(order);
@@ -86,9 +119,9 @@ namespace Store.Service.OrderServices
             var specs = new OrderWithItemSpecification(buyerEmail);
             var orders = await _unitOfWork.Repository<Order, Guid>().GetAllWithSpecificationAsync(specs);
             if (!orders.Any())
-                throw new Exception("There is no Orders found !"); 
+                throw new Exception("There is no Orders found !");
             var mappedOrders = _mapper.Map<List<OrderDetailsDto>>(orders);
-            return mappedOrders; 
+            return mappedOrders;
         }
     }
 }

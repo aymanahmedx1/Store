@@ -10,6 +10,7 @@ using Store.Service.HandelReponse;
 using Store.Service.Helpers;
 using Store.Service.OrderServices;
 using Store.Service.OrderServices.Dto;
+using Store.Service.PaymentServices;
 using Store.Service.ProductServices;
 using Store.Service.Token;
 using Store.Service.UserService;
@@ -30,6 +31,7 @@ namespace Store.WebAPI.Extentions
             services.AddScoped<ITokenService,TokenService>();
 			services.AddScoped<IUserService, UserService>();
 			services.AddScoped<IOrderService, OrderService>();
+			services.AddScoped<IPaymentService, PaymentService>();
             services.Configure<ApiBehaviorOptions>(options =>
             {
                 options.InvalidModelStateResponseFactory = action =>

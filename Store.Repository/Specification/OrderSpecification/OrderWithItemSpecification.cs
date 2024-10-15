@@ -11,8 +11,8 @@ namespace Store.Repository.Specification.OrderSpecification
 {
     public class OrderWithItemSpecification : BaseSpecification<Order>
     {
-        public OrderWithItemSpecification(string buyerEmail) 
-            : base(o=>o.BuyerEmail == buyerEmail)
+        public OrderWithItemSpecification(string buyerEmail)
+            : base(o => o.BuyerEmail == buyerEmail)
         {
             AddInclud(x => x.DeliveryMethod);
             AddInclud(x => x.OrderItems);

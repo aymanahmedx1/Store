@@ -16,7 +16,7 @@ namespace Store.Service.OrderServices.Dto
         public IConfiguration _configuration { get; }
         public string Resolve(OrderItem source, OrderItemDto destination, string destMember, ResolutionContext context)
         {
-            if (!string.IsNullOrEmpty(source.ProductItem.ImageUrl))
+            if (!string.IsNullOrEmpty(source.ProductItem.ImageUrl) || !source.ProductItem.ImageUrl.Contains(source.ProductItem.ImageUrl))
             {
                 return $"{_configuration["BaseUrl"]}{source.ProductItem.ImageUrl}";
             }
